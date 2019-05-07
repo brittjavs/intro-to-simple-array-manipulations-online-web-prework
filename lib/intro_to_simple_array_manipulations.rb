@@ -43,6 +43,7 @@ def using_delete(instructors, offense)
   no_offense_steven = instructors.delete(offense)
 end
 
+placement = 2
 def using_delete_at(famous_robots, placement)
   deleted_robot = famous_robots.delete_at(placement)
 end
